@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/io-netty/io-netty.iml" filepath="$PROJECT_DIR$/io-netty/io-netty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/io-standard-java/io-standard-java.iml" filepath="$PROJECT_DIR$/io-standard-java/io-standard-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java-io.iml" filepath="$PROJECT_DIR$/.idea/java-io.iml" />
+    </modules>
+  </component>
+</project>

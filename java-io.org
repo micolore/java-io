@@ -1,0 +1,47 @@
+* java io
+
+** netty
+
+*** component
+
+**** channel
+
+**** event
+
+***** EventLoopGroup
+
+***** EventLoop
+
+**** i/o
+
+**** Bootstrapping
+ 引导类
+***** ServerBootstrap
+
+***** Bootstrap
+
+**** ChannelHandler
+
+***** ChannelInboundHandler
+***** SimpleChannelInboundHandler
+***** ChannelOutboundHandler
+
+ netty写入消息有两种，一种是Channel另外一种是ChannelHandleContext
+
+  适配器模式
+****** ChannelHandlerAdapter
+****** ChannelDuplexHandlerAdapter
+****** ChannelInboundHandlerAdapter
+****** ChannelOutboundHandlerAdapter
+
+**** ChannelPipeline
+
+***  编、解码器
+  解码器&编码器，入站等于解码器（字节到对象），出站等于编码器（对象到字节）。
+
+**** ByteToMessageDecoder
+**** MessageToByteEncoder
+**** ProtobufEncoder
+**** ProtobufDecoder
+
+

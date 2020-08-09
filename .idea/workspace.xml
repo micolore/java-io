@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8af5e3d1-bbd1-4d29-852e-d823953ab0dd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/java-io.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/io-netty/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/io-netty/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/io-netty/src/main/java/io/netty/demo/EchoClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/io-netty/src/main/java/io/netty/demo/echo/EchoClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/io-netty/src/main/java/io/netty/demo/EchoClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/io-netty/src/main/java/io/netty/demo/echo/EchoClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/io-netty/src/main/java/io/netty/demo/EchoServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/io-netty/src/main/java/io/netty/demo/echo/EchoServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/io-netty/src/main/java/io/netty/demo/EchoServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/io-netty/src/main/java/io/netty/demo/echo/EchoServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/io-netty/src/test/java/io/netty/component/TestByteBuf.java" beforeDir="false" afterPath="$PROJECT_DIR$/io-netty/src/test/java/io/netty/component/TestByteBuf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-io.org" beforeDir="false" afterPath="$PROJECT_DIR$/java-io.org" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reademe.md" beforeDir="false" afterPath="$PROJECT_DIR$/reademe.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1fqIFNHUuwmcGbzs6y9ph5taHco" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/io-netty/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="io.netty.component" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/io-netty/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestByteBuf.zeroCopy">
+    <configuration name="TestByteBuf.testJdkByteBuffer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="io-netty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.netty.component.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.netty.component" />
+      <option name="MAIN_CLASS_NAME" value="io.netty.component.TestByteBuf" />
+      <option name="METHOD_NAME" value="testJdkByteBuffer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestByteBuf.testNettyByteBuf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="io-netty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.netty.component.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.netty.component" />
+      <option name="MAIN_CLASS_NAME" value="io.netty.component.TestByteBuf" />
+      <option name="METHOD_NAME" value="testNettyByteBuf" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestByteBuf.zeroCopy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="io-netty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.netty.component.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.netty.component" />
+      <option name="MAIN_CLASS_NAME" value="io.netty.component.TestByteBuf" />
+      <option name="METHOD_NAME" value="zeroCopy" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestByteBuf.zeroCopy" />
+        <item itemvalue="JUnit.TestByteBuf.testNettyByteBuf" />
+        <item itemvalue="JUnit.TestByteBuf.testJdkByteBuffer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8af5e3d1-bbd1-4d29-852e-d823953ab0dd" name="Default Changelist" comment="" />
+      <created>1596939091797</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596939091797</updated>
+      <workItem from="1596939093102" duration="741000" />
+      <workItem from="1596939854922" duration="770000" />
+      <workItem from="1596940775344" duration="17000" />
+      <workItem from="1596940813482" duration="9458000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="354" y="118" key="#Project_Structure" timestamp="1596940756634">
+      <screen x="50" y="23" width="1630" height="1027" />
+    </state>
+    <state x="353" y="118" key="#Project_Structure/49.23.1631.1027@49.23.1631.1027" timestamp="1596939659613" />
+    <state x="354" y="118" key="#Project_Structure/50.23.1630.1027@50.23.1630.1027" timestamp="1596940756634" />
+    <state x="329" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596947604527">
+      <screen x="50" y="23" width="1630" height="1027" />
+    </state>
+    <state x="329" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/50.23.1630.1027@50.23.1630.1027" timestamp="1596947604527" />
+    <state x="589" y="345" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596939813638">
+      <screen x="49" y="23" width="1631" height="1027" />
+    </state>
+    <state x="589" y="345" key="#com.intellij.fileTypes.FileTypeChooser/49.23.1631.1027@49.23.1631.1027" timestamp="1596939813638" />
+    <state x="640" y="408" width="550" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1596939728515">
+      <screen x="49" y="23" width="1631" height="1027" />
+    </state>
+    <state x="640" y="408" width="550" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/49.23.1631.1027@49.23.1631.1027" timestamp="1596939728515" />
+    <state width="1588" height="437" key="GridCell.Tab.0.bottom" timestamp="1596988176647">
+      <screen x="47" y="23" width="1633" height="1027" />
+    </state>
+    <state width="1588" height="437" key="GridCell.Tab.0.bottom/47.23.1633.1027@47.23.1633.1027" timestamp="1596988176647" />
+    <state width="1588" height="280" key="GridCell.Tab.0.bottom/49.23.1631.1027@49.23.1631.1027" timestamp="1596939834252" />
+    <state width="1588" height="280" key="GridCell.Tab.0.bottom/50.23.1630.1027@50.23.1630.1027" timestamp="1596947591319" />
+    <state width="1588" height="437" key="GridCell.Tab.0.center" timestamp="1596988176646">
+      <screen x="47" y="23" width="1633" height="1027" />
+    </state>
+    <state width="1588" height="437" key="GridCell.Tab.0.center/47.23.1633.1027@47.23.1633.1027" timestamp="1596988176646" />
+    <state width="1588" height="280" key="GridCell.Tab.0.center/49.23.1631.1027@49.23.1631.1027" timestamp="1596939834251" />
+    <state width="1588" height="280" key="GridCell.Tab.0.center/50.23.1630.1027@50.23.1630.1027" timestamp="1596947591318" />
+    <state width="1588" height="437" key="GridCell.Tab.0.left" timestamp="1596988176645">
+      <screen x="47" y="23" width="1633" height="1027" />
+    </state>
+    <state width="1588" height="437" key="GridCell.Tab.0.left/47.23.1633.1027@47.23.1633.1027" timestamp="1596988176645" />
+    <state width="1588" height="280" key="GridCell.Tab.0.left/49.23.1631.1027@49.23.1631.1027" timestamp="1596939834251" />
+    <state width="1588" height="280" key="GridCell.Tab.0.left/50.23.1630.1027@50.23.1630.1027" timestamp="1596947591318" />
+    <state width="1588" height="437" key="GridCell.Tab.0.right" timestamp="1596988176646">
+      <screen x="47" y="23" width="1633" height="1027" />
+    </state>
+    <state width="1588" height="437" key="GridCell.Tab.0.right/47.23.1633.1027@47.23.1633.1027" timestamp="1596988176646" />
+    <state width="1588" height="280" key="GridCell.Tab.0.right/49.23.1631.1027@49.23.1631.1027" timestamp="1596939834251" />
+    <state width="1588" height="280" key="GridCell.Tab.0.right/50.23.1630.1027@50.23.1630.1027" timestamp="1596947591319" />
+    <state x="374" y="175" key="SettingsEditor" timestamp="1596942762379">
+      <screen x="50" y="23" width="1630" height="1027" />
+    </state>
+    <state x="374" y="175" key="SettingsEditor/50.23.1630.1027@50.23.1630.1027" timestamp="1596942762379" />
+    <state x="661" y="321" key="chooseDestDirectoryDialog" timestamp="1596939421591">
+      <screen x="49" y="23" width="1631" height="1027" />
+    </state>
+    <state x="661" y="321" key="chooseDestDirectoryDialog/49.23.1631.1027@49.23.1631.1027" timestamp="1596939421591" />
+    <state x="566" y="262" width="598" height="548" key="find.popup" timestamp="1596939504699">
+      <screen x="49" y="23" width="1631" height="1027" />
+    </state>
+    <state x="566" y="262" width="598" height="548" key="find.popup/49.23.1631.1027@49.23.1631.1027" timestamp="1596939504699" />
+    <state x="259" y="199" key="new project wizard" timestamp="1596939263675">
+      <screen x="50" y="23" width="1630" height="1027" />
+    </state>
+    <state x="259" y="199" key="new project wizard/50.23.1630.1027@50.23.1630.1027" timestamp="1596939263675" />
+  </component>
+</project>

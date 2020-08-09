@@ -1,4 +1,4 @@
-package io.netty.demo;
+package io.netty.demo.echo;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelFuture;
@@ -18,7 +18,6 @@ public class EchoClient {
     EchoClient(String host, int port) {
         this.host = host;
         this.port = port;
-
     }
 
     public void start() throws Exception {
@@ -41,5 +40,11 @@ public class EchoClient {
         } finally {
             group.shutdownGracefully().sync();
         }
+    }
+
+    public static void main(String[] args) throws Exception {
+        String host = "localhost";
+        int port = 8089;
+        new EchoClient(host, port).start();
     }
 }

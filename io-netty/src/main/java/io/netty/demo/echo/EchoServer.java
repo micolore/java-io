@@ -1,4 +1,4 @@
-package io.netty.demo;
+package io.netty.demo.echo;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
@@ -37,7 +37,7 @@ public class EchoServer {
                         }
                     });
             ChannelFuture f = s.bind().sync();
-            System.out.println(EchoServer.class.getName()+"start listen on "+f.channel().localAddress());
+            System.out.println(EchoServer.class.getName() + "start listen on " + f.channel().localAddress());
             f.channel().closeFuture().sync();
         } catch (Exception e) {
             e.printStackTrace();
@@ -45,7 +45,5 @@ public class EchoServer {
             group.shutdownGracefully().sync();
         }
     }
-
-
 }
 

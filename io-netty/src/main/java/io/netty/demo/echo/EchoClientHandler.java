@@ -1,4 +1,4 @@
-package io.netty.demo;
+package io.netty.demo.echo;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
@@ -18,5 +18,6 @@ public class EchoClientHandler extends SimpleChannelInboundHandler<ByteBuf> {
     public void exceptionCaught(ChannelHandlerContext ctx ,Throwable cause){
         cause.printStackTrace();
         ctx.close();
+        System.out.println("echo client close!");
     }
 }

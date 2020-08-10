@@ -129,9 +129,36 @@ public class TestByteBuf {
     }
 
 
+    @Test
+    public void byteBufV2() {
+
+        ByteBuf buffer = Unpooled.buffer(10);
+
+        String hello = "hello";
+        byte[] bytes = hello.getBytes();
+
+        buffer.writeBytes(bytes);
+
+        byte[] b1 = new byte[3];
+        b1[0] = 1;
+        b1[1] = 2;
+        b1[2] = 3;
+        buffer.writeBytes(b1);
+
+        System.out.println("array: " + Arrays.toString(buffer.array()));
+        byte[] read = new byte[5];
+        for (int x = 0; x < 5; x++) {
+            read[x] = buffer.getByte(x);
+        }
+
+        String readStr = new String(read);
+        System.out.println("get buf str: " + readStr);
+
+    }
+
     /**
      * ZeroCopy 应用层的实现，与jvm虚拟机、操作系统无关
-     *
+     * <p>
      * slice go
      */
     @Test
@@ -160,4 +187,6 @@ public class TestByteBuf {
         System.out.println("slice:" + slice);
 
     }
+
+
 }

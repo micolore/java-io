@@ -1,5 +1,12 @@
 *  netty 
 
+
+** compent
+
+*** buf
+    池化、堆内&堆外、安全
+**** PooledUnsafeDirectByteBuf
+
 **  netty常见问题
 *** 1、netty的线程模型是什么样的？
 *** 2、netty的zero copy是怎么实现的？
@@ -7,3 +14,32 @@
 *** 4、序列化协议有几种？应该如何进行选择？
 *** 5、netty支持哪种心跳类型？
 *** 6、netty与tomcat的区别？
+
+** 开发问题
+*** 1、c#那边请求的长连接数据，但是服务器接收到为什么是这么几次
+    handle处理，然后长度是客户端请求的时候设置的长度
+#+BEGIN_SRC 
+2020-08-11 23:33:51.400 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xff9e7392, L:/0:0:0:0:0:0:0:0:9876] READ: [id: 0xc7070c5e, L:/192.168.1.101:9876 - R:/192.168.1.100:60826]
+2020-08-11 23:33:51.401 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xff9e7392, L:/0:0:0:0:0:0:0:0:9876] READ COMPLETE
+buf:PooledSlicedByteBuf(ridx: 0, widx: 0, cap: 0/0, unwrapped: PooledUnsafeDirectByteBuf(ridx: 1, widx: 349, cap: 1024))
+buf:PooledSlicedByteBuf(ridx: 0, widx: 0, cap: 0/0, unwrapped: PooledUnsafeDirectByteBuf(ridx: 2, widx: 349, cap: 1024))
+buf:PooledSlicedByteBuf(ridx: 0, widx: 1, cap: 1/1, unwrapped: PooledUnsafeDirectByteBuf(ridx: 4, widx: 349, cap: 1024))
+buf:PooledSlicedByteBuf(ridx: 0, widx: 3, cap: 3/3, unwrapped: PooledUnsafeDirectByteBuf(ridx: 8, widx: 349, cap: 1024))
+buf:PooledSlicedByteBuf(ridx: 0, widx: 0, cap: 0/0, unwrapped: PooledUnsafeDirectByteBuf(ridx: 9, widx: 349, cap: 1024))
+buf:PooledSlicedByteBuf(ridx: 0, widx: 0, cap: 0/0, unwrapped: PooledUnsafeDirectByteBuf(ridx: 10, widx: 349, cap: 1024))
+buf:PooledSlicedByteBuf(ridx: 0, widx: 0, cap: 0/0, unwrapped: PooledUnsafeDirectByteBuf(ridx: 11, widx: 349, cap: 1024))
+buf:PooledSlicedByteBuf(ridx: 0, widx: 0, cap: 0/0, unwrapped: PooledUnsafeDirectByteBuf(ridx: 12, widx: 349, cap: 1024))
+buf:PooledSlicedByteBuf(ridx: 0, widx: 0, cap: 0/0, unwrapped: PooledUnsafeDirectByteBuf(ridx: 13, widx: 349, cap: 1024))
+buf:PooledSlicedByteBuf(ridx: 0, widx: 2, cap: 2/2, unwrapped: PooledUnsafeDirectByteBuf(ridx: 16, widx: 349, cap: 1024))
+buf:PooledSlicedByteBuf(ridx: 0, widx: 2, cap: 2/2, unwrapped: PooledUnsafeDirectByteBuf(ridx: 19, widx: 349, cap: 1024))
+buf:PooledSlicedByteBuf(ridx: 0, widx: 2, cap: 2/2, unwrapped: PooledUnsafeDirectByteBuf(ridx: 22, widx: 349, cap: 1024))
+buf:PooledSlicedByteBuf(ridx: 0, widx: 49, cap: 49/49, unwrapped: PooledUnsafeDirectByteBuf(ridx: 72, widx: 349, cap: 1024))
+buf:PooledSlicedByteBuf(ridx: 0, widx: 82, cap: 82/82, unwrapped: PooledUnsafeDirectByteBuf(ridx: 155, widx: 349, cap: 1024))
+buf:PooledSlicedByteBuf(ridx: 0, widx: 101, cap: 101/101, unwrapped: PooledUnsafeDirectByteBuf(ridx: 257, widx: 349, cap: 1024))
+buf:PooledSlicedByteBuf(ridx: 0, widx: 57, cap: 57/57, unwrapped: PooledUnsafeDirectByteBuf(ridx: 315, widx: 349, cap: 1024))
+2020-08-11 23:34:51.426 [nioEventLoopGroup-3-1] INFO  m.w.socket.ms.server.MessageServer - close this client conn
+#+END_SRC
+
+
+*** 2、com.google.protobuf.InvalidProtocolBufferException: Protocol message contained an invalid tag (zero).
+

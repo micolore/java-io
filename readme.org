@@ -1,0 +1,20 @@
+* java io
+
+** 一、 netty
+
+*** 1、netty-protobuf
+
+*** 2、netty-websocket
+
+*** 3、springboot+netty+protobuf
+
+** standard io
+
+** thread
+
+
+
+* tools
+
+### netcat
+    http://netcat.sourceforge.net/
